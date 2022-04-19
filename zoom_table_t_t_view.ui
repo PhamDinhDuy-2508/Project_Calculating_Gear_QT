@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Zoom_table_T_t_view</class>
+ <widget class="QDialog" name="Zoom_table_T_t_view">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>350</width>
+    <height>395</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>21</y>
+     <width>331</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>150</number>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>Thông số</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Giá trị</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>370</y>
+     <width>201</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="maximumSize">
+       <size>
+        <width>70</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>ok</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="maximumSize">
+       <size>
+        <width>70</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>Cancel</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

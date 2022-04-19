@@ -1,0 +1,3946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1835</width>
+    <height>874</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>1</x>
+      <y>79</y>
+      <width>161</width>
+      <height>630</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>180</width>
+      <height>630</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Noto Sans</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="Setting_engine">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>50</y>
+       <width>151</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">  #Setting_engine{  border-width: 9px;
+    border-radius: 10px;
+    border-color:rgba(0,0,0,0.5); ;
+    font: bold 14px;
+    padding: 1px}
+#Setting_engine:hover{
+background-color:	rgba(116, 114, 157, 0.2);
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>9</y>
+       <width>151</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Noto Sans</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Chọn Động Cơ Điện</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>130</y>
+       <width>141</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Thông tin về hệ thống</string>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>170</y>
+       <width>151</width>
+       <height>231</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QWidget" name="layoutWidget_6">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>151</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <widget class="QLabel" name="Force_F">
+             <property name="font">
+              <font>
+               <family>Noto Sans</family>
+               <pointsize>9</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Lực vòng:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="F_result">
+             <property name="font">
+              <font>
+               <family>Noto Sans</family>
+               <pointsize>9</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>6000</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <widget class="QLabel" name="ver_v">
+             <property name="font">
+              <font>
+               <family>Noto Sans</family>
+               <pointsize>9</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Vận tốc:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="v_result">
+             <property name="font">
+              <font>
+               <family>Noto Sans</family>
+               <pointsize>9</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>123</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <item>
+            <widget class="QLabel" name="label_4">
+             <property name="font">
+              <font>
+               <family>Noto Sans</family>
+               <pointsize>9</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Số răng tải dẫn:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="grear_small_result">
+             <property name="font">
+              <font>
+               <family>Noto Sans</family>
+               <pointsize>9</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>123</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_4">
+           <item>
+            <widget class="QLabel" name="Gear_number">
+             <property name="font">
+              <font>
+               <family>Noto Sans</family>
+               <pointsize>9</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Số răng tải:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="Gear_number_result">
+             <property name="font">
+              <font>
+               <family>Noto Sans</family>
+               <pointsize>9</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>123123</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_5">
+           <item>
+            <widget class="QLabel" name="Time_service">
+             <property name="font">
+              <font>
+               <family>Noto Sans</family>
+               <pointsize>9</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Thời gian:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="Time_Service_result">
+             <property name="font">
+              <font>
+               <family>Noto Sans</family>
+               <pointsize>9</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>10</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_6">
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <item>
+            <widget class="QLabel" name="label_8">
+             <property name="font">
+              <font>
+               <family>Noto Sans</family>
+               <pointsize>9</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Quay : </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label">
+             <property name="font">
+              <font>
+               <family>Noto Sans</family>
+               <pointsize>9</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Tải va đập:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_6">
+             <property name="font">
+              <font>
+               <family>Noto Sans</family>
+               <pointsize>9</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>1 năm làm: </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_7">
+             <property name="font">
+              <font>
+               <family>Noto Sans</family>
+               <pointsize>9</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>số giờ ca làm :</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_2">
+           <item>
+            <widget class="QLabel" name="rotate">
+             <property name="text">
+              <string>2</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="load_mode">
+             <property name="text">
+              <string>nhe</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="work_year">
+             <property name="text">
+              <string>300</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="working_session">
+             <property name="text">
+              <string>16</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="layoutWidget_7">
+     <property name="geometry">
+      <rect>
+       <x>1</x>
+       <y>405</y>
+       <width>151</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_7">
+      <item>
+       <widget class="QLabel" name="label_5">
+        <property name="font">
+         <font>
+          <family>Noto Sans</family>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Chế độ </string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_9">
+        <property name="text">
+         <string>T =</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox">
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <item>
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>5</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QFrame" name="frame_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>439</y>
+       <width>151</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>151</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <attribute name="horizontalHeaderDefaultSectionSize">
+       <number>60</number>
+      </attribute>
+      <column>
+       <property name="text">
+        <string>Thông số</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>7</pointsize>
+        </font>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Giá trị</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>7</pointsize>
+        </font>
+       </property>
+      </column>
+     </widget>
+     <widget class="QPushButton" name="zoom2">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>0</y>
+        <width>31</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="../Project_calculating_Gear/qml.qrc">
+        <normaloff>:/dowload/Anh_cua_app+do_an/zoom.png</normaloff>:/dowload/Anh_cua_app+do_an/zoom.png</iconset>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QTableWidget" name="tableWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>540</y>
+       <width>151</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <attribute name="horizontalHeaderDefaultSectionSize">
+      <number>60</number>
+     </attribute>
+     <column>
+      <property name="text">
+       <string>Thông số</string>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Giá trị</string>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+     </column>
+    </widget>
+    <widget class="QPushButton" name="zoom_2">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>540</y>
+       <width>31</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="../Project_calculating_Gear/qml.qrc">
+       <normaloff>:/dowload/Anh_cua_app+do_an/zoom.png</normaloff>:/dowload/Anh_cua_app+do_an/zoom.png</iconset>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="System_info">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>151</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">  #System_info{  border-width: 9px;
+    border-radius: 10px;
+    border-color:rgba(0,0,0,0.5); ;
+    font: bold 14px;
+    padding: 1px}
+#System_info:hover{
+background-color:	rgba(116, 114, 157, 0.2);
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget_26">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>30</y>
+      <width>161</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_5">
+     <item>
+      <widget class="QPushButton" name="Choice_Material">
+       <property name="maximumSize">
+        <size>
+         <width>160</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noto Sans</family>
+         <pointsize>-1</pointsize>
+         <weight>75</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"> #Choice_Material{ 
+ border-width: 9px;
+    border-radius: 10px;
+    border-color:rgba(0,0,0,0.5); ; 
+	background :rgb(250, 255, 238) ;
+    font: bold 14px;
+    padding: 1px}
+#Choice_Material:hover{
+background-color :  rgb(181, 255, 208);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Chọn Vật Liệu</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="Tinh_Toan_So_Bo">
+       <property name="maximumSize">
+        <size>
+         <width>160</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noto Sans</family>
+         <pointsize>-1</pointsize>
+         <weight>75</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">  #Tinh_Toan_So_Bo{ 
+ border-width: 9px;
+    border-radius: 10px;
+    border-color:rgba(0,0,0,0.5); ; 
+	background :rgb(250, 255, 238) ;
+    font: bold 14px;
+    padding: 1px}
+#Tinh_Toan_So_Bo:hover{
+background-color :  rgb(181, 255, 208);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Tính Toán Sơ Bộ</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="Thong_so_Banh_Rang">
+       <property name="maximumSize">
+        <size>
+         <width>160</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noto Sans</family>
+         <pointsize>-1</pointsize>
+         <weight>75</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+         <kerning>false</kerning>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">  #Thong_so_Banh_Rang{ 
+ border-width: 9px;
+    border-radius: 10px;
+    border-color:rgba(0,0,0,0.5); ; 
+	background :rgb(250, 255, 238) ;
+    font: bold 14px;
+    padding: 1px}
+#Thong_so_Banh_Rang:hover{
+background-color :  rgb(181, 255, 208);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Thông Số Bánh Răng</string>
+       </property>
+       <property name="autoDefault">
+        <bool>true</bool>
+       </property>
+       <property name="flat">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QStackedWidget" name="stackedWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>20</y>
+      <width>681</width>
+      <height>681</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>710</width>
+      <height>690</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Noto Sans</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="currentIndex">
+     <number>2</number>
+    </property>
+    <widget class="QWidget" name="page_3">
+     <widget class="QPushButton" name="Vat_Lieu_Banh_Rang_lon">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>200</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>200</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Noto Sans</family>
+        <pointsize>-1</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">  #Vat_Lieu_Banh_Rang_lon{ 
+ border-width: 9px;
+    border-radius: 10px;
+    border-color:rgba(0,0,0,0.5); ; 
+	background :rgb(72, 200, 108);
+    font: bold 14px;
+;
+    padding: 1px}
+</string>
+      </property>
+      <property name="text">
+       <string>Vật Liệu Bánh Răng Lớn</string>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="tableWidget_BIG">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>611</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <property name="editTriggers">
+       <set>QAbstractItemView::NoEditTriggers</set>
+      </property>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="textAlignment">
+        <set>AlignCenter</set>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>Nhãn Hiệu</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignLeading|AlignVCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Nhiệt Luyện</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignLeading|AlignVCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Kích Thước</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignLeading|AlignVCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Độ Rắn</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignLeading|AlignVCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Giới Hạn Bền</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignLeading|AlignVCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Giới Hạn Chảy</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignLeading|AlignVCenter</set>
+       </property>
+      </column>
+      <item row="0" column="0">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="textAlignment">
+        <set>AlignCenter</set>
+       </property>
+       <property name="foreground">
+        <brush brushstyle="NoBrush">
+         <color alpha="255">
+          <red>84</red>
+          <green>84</green>
+          <blue>84</blue>
+         </color>
+        </brush>
+       </property>
+      </item>
+      <item row="0" column="1">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="textAlignment">
+        <set>AlignCenter</set>
+       </property>
+      </item>
+      <item row="0" column="2">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="textAlignment">
+        <set>AlignCenter</set>
+       </property>
+      </item>
+      <item row="0" column="3">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="textAlignment">
+        <set>AlignCenter</set>
+       </property>
+      </item>
+      <item row="0" column="4">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="textAlignment">
+        <set>AlignCenter</set>
+       </property>
+       <property name="background">
+        <brush brushstyle="NoBrush">
+         <color alpha="255">
+          <red>106</red>
+          <green>106</green>
+          <blue>106</blue>
+         </color>
+        </brush>
+       </property>
+      </item>
+      <item row="0" column="5">
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+     </widget>
+     <widget class="QPushButton" name="Vat_Lieu_Banh_Rang_nho">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>150</y>
+        <width>200</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>200</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Noto Sans</family>
+        <pointsize>-1</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">  #Vat_Lieu_Banh_Rang_nho{ 
+ border-width: 9px;
+    border-radius: 10px;
+    border-color:rgba(0,0,0,0.5); ; 
+	background :rgb(121, 150, 255);
+    font: bold 14px;
+;
+    padding: 1px}
+</string>
+      </property>
+      <property name="text">
+       <string>Vật Liệu Bánh Răng Nhỏ</string>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="tableWidget_SMALL">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>190</y>
+        <width>611</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="editTriggers">
+       <set>QAbstractItemView::NoEditTriggers</set>
+      </property>
+      <property name="selectionMode">
+       <enum>QAbstractItemView::SingleSelection</enum>
+      </property>
+      <property name="selectionBehavior">
+       <enum>QAbstractItemView::SelectRows</enum>
+      </property>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>Nhãn Hiệu</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Nhiệt Luyện</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Kích Thước</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Độ Rắn</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Giới Hạn Bền</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Giới Hạn Chảy</string>
+       </property>
+      </column>
+     </widget>
+     <widget class="QPushButton" name="Open_data_Material">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>90</y>
+        <width>40</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">  #Open_data_Material{  border-width: 9px;
+    border-radius: 10px;
+    border-color:rgba(0,0,0,0.5); ;
+    font: bold 14px; 
+    padding: 1px}
+#Open_data_Material:hover{
+background-color:	rgba(116, 114, 157, 0.2);
+}
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="../Project_calculating_Gear/qml.qrc">
+        <normaloff>:/dowload/Anh_cua_app+do_an/Add_data.png</normaloff>:/dowload/Anh_cua_app+do_an/Add_data.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>30</width>
+        <height>30</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Open_data_Material_small">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>210</y>
+        <width>40</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>40</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">  #Open_data_Material_small{  border-width: 9px;
+    border-radius: 10px;
+    border-color:rgba(0,0,0,0.5); ;
+    font: bold 14px; 
+    padding: 1px}
+#Open_data_Material_small:hover{
+background-color:	rgba(116, 114, 157, 0.2);
+}
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="../Project_calculating_Gear/qml.qrc">
+        <normaloff>:/dowload/Anh_cua_app+do_an/Add_data.png</normaloff>:/dowload/Anh_cua_app+do_an/Add_data.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>30</width>
+        <height>30</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="BIG_result">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>280</y>
+        <width>211</width>
+        <height>391</height>
+       </rect>
+      </property>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>Kí Hiệu</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Giá trị</string>
+       </property>
+      </column>
+      <item row="0" column="0">
+       <property name="text">
+        <string>σ_Hlim1</string>
+       </property>
+      </item>
+      <item row="1" column="0">
+       <property name="text">
+        <string>σ_Flim1</string>
+       </property>
+      </item>
+      <item row="2" column="0">
+       <property name="text">
+        <string>N_HO1</string>
+       </property>
+      </item>
+      <item row="3" column="0">
+       <property name="text">
+        <string>N_FO1</string>
+       </property>
+      </item>
+      <item row="4" column="0">
+       <property name="text">
+        <string>N_HE1</string>
+       </property>
+      </item>
+      <item row="5" column="0">
+       <property name="text">
+        <string>N_FE1</string>
+       </property>
+      </item>
+      <item row="6" column="0">
+       <property name="text">
+        <string>K_HL1</string>
+       </property>
+      </item>
+      <item row="7" column="0">
+       <property name="text">
+        <string>K_FL1</string>
+       </property>
+      </item>
+      <item row="8" column="0">
+       <property name="text">
+        <string>[σ_H1 ]</string>
+       </property>
+      </item>
+      <item row="9" column="0">
+       <property name="text">
+        <string>[σ_F1 ]</string>
+       </property>
+      </item>
+      <item row="10" column="0">
+       <property name="text">
+        <string>[σ_H1 ]_max</string>
+       </property>
+      </item>
+      <item row="11" column="0">
+       <property name="text">
+        <string>[σ_F1 ]_max</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>250</y>
+        <width>211</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Noto Sans</family>
+        <pointsize>-1</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">  #label_10{ 
+ border-width: 9px;
+    border-radius: 10px;
+    border-color:rgba(0,0,0,0.5); ; 
+	background :rgb(72, 200, 108);
+    font: bold 14px;
+;
+    padding: 1px}
+</string>
+      </property>
+      <property name="text">
+       <string>Bánh răng lớn</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="SMALL_result">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>280</y>
+        <width>221</width>
+        <height>391</height>
+       </rect>
+      </property>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>Kí Hiệu</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Giá trị</string>
+       </property>
+      </column>
+      <item row="0" column="0">
+       <property name="text">
+        <string>σ_Hlim2</string>
+       </property>
+      </item>
+      <item row="1" column="0">
+       <property name="text">
+        <string>σ_Flim2</string>
+       </property>
+      </item>
+      <item row="2" column="0">
+       <property name="text">
+        <string>N_HO2</string>
+       </property>
+      </item>
+      <item row="3" column="0">
+       <property name="text">
+        <string>N_FO2</string>
+       </property>
+      </item>
+      <item row="4" column="0">
+       <property name="text">
+        <string>N_HE2</string>
+       </property>
+      </item>
+      <item row="5" column="0">
+       <property name="text">
+        <string>N_FE2</string>
+       </property>
+      </item>
+      <item row="6" column="0">
+       <property name="text">
+        <string>K_HL2</string>
+       </property>
+      </item>
+      <item row="7" column="0">
+       <property name="text">
+        <string>K_FL2</string>
+       </property>
+      </item>
+      <item row="8" column="0">
+       <property name="text">
+        <string>[σ_H2 ]</string>
+       </property>
+      </item>
+      <item row="9" column="0">
+       <property name="text">
+        <string>[σ_F2 ]</string>
+       </property>
+      </item>
+      <item row="10" column="0">
+       <property name="text">
+        <string>[σ_H2]_max</string>
+       </property>
+      </item>
+      <item row="11" column="0">
+       <property name="text">
+        <string>[σ_F2]_max</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>250</y>
+        <width>211</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Noto Sans</family>
+        <pointsize>-1</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">  #label_11{ 
+ border-width: 9px;
+    border-radius: 10px;
+    border-color:rgba(0,0,0,0.5); ; 
+	background :rgb(121, 150, 255);
+    font: bold 14px;
+;
+    padding: 1px}
+</string>
+      </property>
+      <property name="text">
+       <string>Bánh răng nhỏ</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>570</y>
+        <width>16</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Noto Sans</family>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="text">
+       <string>+</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>570</y>
+        <width>16</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>+</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_7">
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>30</y>
+        <width>361</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Noto Sans</family>
+        <pointsize>-1</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">  #pushButton_6{ 
+ border-width: 9px;
+    border-radius: 10px;
+    border-color:rgba(0,0,0,0.5); ; 
+	background :rgb(72, 200, 108);
+    font: bold 14px;
+;
+    padding: 1px}
+</string>
+      </property>
+      <property name="text">
+       <string>Xác Định Mô Đun Và Thông Số Bánh Răng</string>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frame_5">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>60</y>
+        <width>441</width>
+        <height>291</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QPushButton" name="Set_value_z2">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>110</y>
+         <width>30</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>30</width>
+         <height>25</height>
+        </size>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">  #Set_value_z2{  border-width: 9px;
+    border-radius: 10px;
+    border-color:rgba(0,0,0,0.5); ;
+    font: bold 14px; 
+    padding: 1px}
+#Set_value_z2:hover{
+background-color:	rgba(116, 114, 157, 0.2);
+}
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../Project_calculating_Gear/qml.qrc">
+         <normaloff>:/dowload/Anh_cua_app+do_an/change_text.png</normaloff>:/dowload/Anh_cua_app+do_an/change_text.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="Set_value_z1">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>70</y>
+         <width>30</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>30</width>
+         <height>25</height>
+        </size>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">  #Set_value_z1{  border-width: 9px;
+    border-radius: 10px;
+    border-color:rgba(0,0,0,0.5); ;
+    font: bold 14px; 
+    padding: 1px}
+#Set_value_z1:hover{
+background-color:	rgba(116, 114, 157, 0.2);
+}
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../Project_calculating_Gear/qml.qrc">
+         <normaloff>:/dowload/Anh_cua_app+do_an/change_text.png</normaloff>:/dowload/Anh_cua_app+do_an/change_text.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QWidget" name="layoutWidget_8">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>70</y>
+         <width>221</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_45">
+        <item>
+         <widget class="QLabel" name="label_41">
+          <property name="maximumSize">
+           <size>
+            <width>20</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Noto Sans</family>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Z1</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_56">
+          <property name="maximumSize">
+           <size>
+            <width>20</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>=</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_58">
+          <property name="maximumSize">
+           <size>
+            <width>60</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Noto Sans</family>
+            <pointsize>10</pointsize>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_72">
+          <property name="maximumSize">
+           <size>
+            <width>70</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>| Lấy Z1 =</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_4">
+          <property name="maximumSize">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="layoutWidget_9">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>110</y>
+         <width>221</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_46">
+        <item>
+         <widget class="QLabel" name="label_73">
+          <property name="maximumSize">
+           <size>
+            <width>20</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Noto Sans</family>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Z2</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_74">
+          <property name="maximumSize">
+           <size>
+            <width>20</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>=</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_75">
+          <property name="maximumSize">
+           <size>
+            <width>60</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Noto Sans</family>
+            <pointsize>10</pointsize>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_76">
+          <property name="maximumSize">
+           <size>
+            <width>70</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>| Lấy Z2 =</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_6">
+          <property name="maximumSize">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QPushButton" name="Set_m">
+       <property name="geometry">
+        <rect>
+         <x>390</x>
+         <y>30</y>
+         <width>30</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>30</width>
+         <height>25</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">  #Set_m{  border-width: 9px;
+    border-radius: 10px;
+    border-color:rgba(0,0,0,0.5); ;
+    font: bold 14px; 
+    padding: 1px}
+#Set_m:hover{
+background-color:	rgba(116, 114, 157, 0.2);
+}
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../Project_calculating_Gear/qml.qrc">
+         <normaloff>:/dowload/Anh_cua_app+do_an/change_text.png</normaloff>:/dowload/Anh_cua_app+do_an/change_text.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QWidget" name="layoutWidget_10">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>30</y>
+         <width>91</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_22">
+        <item>
+         <widget class="QLabel" name="label_35">
+          <property name="maximumSize">
+           <size>
+            <width>62</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>Lấy m =</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_3">
+          <property name="maximumSize">
+           <size>
+            <width>35</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Noto Sans</family>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QLabel" name="label_31">
+       <property name="geometry">
+        <rect>
+         <x>62</x>
+         <y>32</y>
+         <width>27</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>30</width>
+         <height>20</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noto Sans</family>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>m  =</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="layoutWidget_11">
+       <property name="geometry">
+        <rect>
+         <x>95</x>
+         <y>30</y>
+         <width>191</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_21">
+        <item>
+         <widget class="QLabel" name="label_33">
+          <property name="maximumSize">
+           <size>
+            <width>80</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Noto Sans</family>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_32">
+          <property name="maximumSize">
+           <size>
+            <width>30</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Noto Sans</family>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>÷</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_34">
+          <property name="maximumSize">
+           <size>
+            <width>80</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Noto Sans</family>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="layoutWidget_12">
+       <property name="geometry">
+        <rect>
+         <x>61</x>
+         <y>150</y>
+         <width>201</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_23">
+        <item>
+         <widget class="QLabel" name="label_77">
+          <property name="font">
+           <font>
+            <family>Noto Sans</family>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>aw = </string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_78">
+          <property name="maximumSize">
+           <size>
+            <width>70</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Noto Sans</family>
+            <pointsize>10</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_79">
+          <property name="maximumSize">
+           <size>
+            <width>40</width>
+            <height>30</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Noto Sans</family>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>(mm)</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QLabel" name="label_89">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>310</y>
+         <width>81</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QWidget" name="layoutWidget_13">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>270</y>
+         <width>201</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_53">
+        <item>
+         <widget class="QLabel" name="label_92">
+          <property name="font">
+           <font>
+            <family>Noto Sans</family>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>aw = </string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_93">
+          <property name="maximumSize">
+           <size>
+            <width>70</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Noto Sans</family>
+            <pointsize>10</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_94">
+          <property name="maximumSize">
+           <size>
+            <width>40</width>
+            <height>30</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Noto Sans</family>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>(mm)</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QLabel" name="label_95">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>270</y>
+         <width>131</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Khoảng cách trục :</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="layoutWidget_14">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>240</y>
+         <width>171</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_52">
+        <item>
+         <widget class="QLabel" name="label_90">
+          <property name="font">
+           <font>
+            <family>Noto Sans</family>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Δy = </string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_91">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="layoutWidget_15">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>180</y>
+         <width>331</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_54">
+        <item>
+         <widget class="QLabel" name="label_80">
+          <property name="font">
+           <font>
+            <family>Noto Sans</family>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Dịch chỉnh góc:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_47">
+          <item>
+           <widget class="QLabel" name="label_81">
+            <property name="font">
+             <font>
+              <family>Noto Sans</family>
+              <pointsize>10</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>    x1=</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_82">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_48">
+          <item>
+           <widget class="QLabel" name="label_83">
+            <property name="font">
+             <font>
+              <family>Noto Sans</family>
+              <pointsize>10</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>x2=</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_84">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QPushButton" name="pushButton">
+       <property name="geometry">
+        <rect>
+         <x>169</x>
+         <y>211</y>
+         <width>103</width>
+         <height>19</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../Project_calculating_Gear/qml.qrc">
+         <normaloff>:/dowload/Anh_cua_app+do_an/next.png</normaloff>:/dowload/Anh_cua_app+do_an/next.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>60</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QWidget" name="layoutWidget_16">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>210</y>
+         <width>102</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_49">
+        <item>
+         <widget class="QLabel" name="label_85">
+          <property name="font">
+           <font>
+            <family>Noto Sans</family>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Kx = </string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_86">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="layoutWidget_17">
+       <property name="geometry">
+        <rect>
+         <x>280</x>
+         <y>210</y>
+         <width>102</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_50">
+        <item>
+         <widget class="QLabel" name="label_87">
+          <property name="font">
+           <font>
+            <family>Noto Sans</family>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Ky= </string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_88">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QTableWidget" name="tableWidget_4">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>360</y>
+        <width>391</width>
+        <height>321</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <row>
+       <property name="text">
+        <string>Khoảng cách trục chia (a)</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noto Sans</family>
+        </font>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Khoảng cách trục (aw)</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noto Sans</family>
+        </font>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Đường kính chia (d)</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noto Sans</family>
+        </font>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Đường kính lăn (dw)</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noto Sans</family>
+        </font>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Đường kính đỉnh răng (da)</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noto Sans</family>
+        </font>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Đường kín đáy răng (df)</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noto Sans</family>
+        </font>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Đường kính cơ sở ( db)</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noto Sans</family>
+        </font>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Góc profin gốc</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noto Sans</family>
+        </font>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Góc profin răng</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noto Sans</family>
+        </font>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Góc ăn khớp</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noto Sans</family>
+        </font>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>Bánh răng lớn</string>
+       </property>
+       <property name="whatsThis">
+        <string extracomment="qưeqwweqwe"/>
+       </property>
+       <property name="background">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Bánh răng nhỏ</string>
+       </property>
+       <property name="background">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+      </column>
+      <item row="0" column="0">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="whatsThis">
+        <string extracomment="d"/>
+       </property>
+      </item>
+      <item row="2" column="0">
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+     </widget>
+     <widget class="QPushButton" name="pushButton_8">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>360</y>
+        <width>201</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Noto Sans</family>
+        <pointsize>-1</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">  #pushButton_8{ 
+ border-width: 9px;
+    border-radius: 10px;
+    border-color:rgba(0,0,0,0.5); ; 
+	background :rgb(106, 163, 255);
+    font: bold 14px;
+;
+    padding: 1px}
+</string>
+      </property>
+      <property name="text">
+       <string>Thông Số Bánh Răng</string>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_10">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>660</y>
+        <width>21</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_4">
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>10</y>
+        <width>331</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">  #pushButton_4{ 
+ border-width: 9px;
+    border-radius: 10px;
+    border-color:rgba(0,0,0,0.5); ; 
+	background :rgb(72, 200, 108);
+    font: bold 14px;
+;
+    padding: 1px}
+</string>
+      </property>
+      <property name="text">
+       <string>Trị số của các hệ số Ka , Kd  và ZM</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_18">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>40</y>
+        <width>241</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_16">
+       <item>
+        <widget class="QTableWidget" name="tableWidget_3">
+         <row>
+          <property name="text">
+           <string>Ka(MPa^(1/3))</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Kd(MPa^(1/3))</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>ZM(MPa^(1/3))</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>Giá trị</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="open_table_ka">
+         <property name="maximumSize">
+          <size>
+           <width>40</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">  #open_table_ka{  border-width: 9px;
+    border-radius: 10px;
+    border-color:rgba(0,0,0,0.5); ;
+    font: bold 14px; 
+    padding: 1px}
+#open_table_ka:hover{
+background-color:	rgba(116, 114, 157, 0.2);
+}
+</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="../Project_calculating_Gear/qml.qrc">
+           <normaloff>:/dowload/Anh_cua_app+do_an/Add_data.png</normaloff>:/dowload/Anh_cua_app+do_an/Add_data.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>30</width>
+           <height>30</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QComboBox" name="comboBox_2">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>430</y>
+        <width>151</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>Chọn Vị Trí</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Đối Xứng</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Không Đối Xứng</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Chìa</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>400</y>
+        <width>331</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">  #pushButton_5{ 
+ border-width: 9px;
+    border-radius: 10px;
+    border-color:rgba(0,0,0,0.5); ; 
+	background :rgb(72, 200, 108);
+    font: bold 14px;
+;
+    padding: 1px}
+</string>
+      </property>
+      <property name="text">
+       <string>Trị số của các hệ số ψ_ba,ψ_bdmax  </string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_19">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>500</y>
+        <width>301</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_38">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_39">
+         <item>
+          <widget class="QLabel" name="left_lim_ba_bd_max">
+           <property name="font">
+            <font>
+             <family>Noto Sans</family>
+             <pointsize>10</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_36">
+           <property name="text">
+            <string>&lt;=</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_40">
+         <item>
+          <widget class="QLabel" name="label_37">
+           <property name="font">
+            <font>
+             <family>Noto Sans</family>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>ψ_bdmax = </string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_5"/>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_41">
+         <item>
+          <widget class="QLabel" name="label_38">
+           <property name="text">
+            <string>&lt;=</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="right_lim_ba_bd_max">
+           <property name="font">
+            <font>
+             <family>Noto Sans</family>
+             <pointsize>10</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_20">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>570</y>
+        <width>111</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_43">
+       <item>
+        <widget class="QLabel" name="label_40">
+         <property name="font">
+          <font>
+           <family>Noto Sans</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>K_Hβ = </string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="KHB_res">
+         <property name="font">
+          <font>
+           <family>Noto Sans</family>
+           <pointsize>10</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+           <underline>true</underline>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>IBeamCursor</cursorShape>
+         </property>
+         <property name="mouseTracking">
+          <bool>true</bool>
+         </property>
+         <property name="acceptDrops">
+          <bool>true</bool>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_22">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>600</y>
+        <width>120</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_44">
+       <item>
+        <widget class="QLabel" name="label_43">
+         <property name="font">
+          <font>
+           <family>Noto Sans</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>aw= </string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="aw_res">
+         <property name="font">
+          <font>
+           <family>Noto Sans</family>
+           <pointsize>10</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+           <underline>true</underline>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>IBeamCursor</cursorShape>
+         </property>
+         <property name="mouseTracking">
+          <bool>true</bool>
+         </property>
+         <property name="acceptDrops">
+          <bool>true</bool>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_23">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>465</y>
+        <width>301</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_37">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_18">
+         <item>
+          <widget class="QLabel" name="left_lim_ba_bd">
+           <property name="font">
+            <font>
+             <family>Noto Sans</family>
+             <pointsize>10</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_29">
+           <property name="text">
+            <string>&lt;=</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_17">
+         <item>
+          <widget class="QLabel" name="label_28">
+           <property name="font">
+            <font>
+             <family>Noto Sans</family>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>ψ_ba = </string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_2"/>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_19">
+         <item>
+          <widget class="QLabel" name="label_30">
+           <property name="text">
+            <string>&lt;=</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="right_lim_ba_bd">
+           <property name="font">
+            <font>
+             <family>Noto Sans</family>
+             <pointsize>10</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_24">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>540</y>
+        <width>111</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_42">
+       <item>
+        <widget class="QLabel" name="label_39">
+         <property name="font">
+          <font>
+           <family>Noto Sans</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>ψ_bd = </string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="psi_bd_res">
+         <property name="font">
+          <font>
+           <family>Noto Sans</family>
+           <pointsize>10</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+           <underline>true</underline>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>IBeamCursor</cursorShape>
+         </property>
+         <property name="mouseTracking">
+          <bool>true</bool>
+         </property>
+         <property name="acceptDrops">
+          <bool>true</bool>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QPushButton" name="pushButton_7">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>170</y>
+        <width>331</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">  #pushButton_7{ 
+ border-width: 9px;
+    border-radius: 10px;
+    border-color:rgba(0,0,0,0.5); ; 
+	background :rgb(74, 86, 255);
+    font: bold 14px;
+;
+    padding: 1px}
+</string>
+      </property>
+      <property name="text">
+       <string>Lựa Chọn Mô Hình</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_25">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>600</y>
+        <width>71</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_20">
+       <item>
+        <widget class="QLabel" name="label_42">
+         <property name="font">
+          <font>
+           <family>Noto Sans</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>(mm)</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="Set_aw">
+         <property name="maximumSize">
+          <size>
+           <width>30</width>
+           <height>30</height>
+          </size>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="mouseTracking">
+          <bool>true</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">  #Set_aw{  border-width: 9px;
+    border-radius: 10px;
+    border-color:rgba(0,0,0,0.5); ;
+    font: bold 14px; 
+    padding: 1px}
+#Set_aw:hover{
+background-color:	rgba(116, 114, 157, 0.2);
+}
+</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="../Project_calculating_Gear/qml.qrc">
+           <normaloff>:/dowload/Anh_cua_app+do_an/change_text.png</normaloff>:/dowload/Anh_cua_app+do_an/change_text.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>25</width>
+           <height>25</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QStackedWidget" name="stackedWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>1030</x>
+      <y>10</y>
+      <width>151</width>
+      <height>701</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="page_5">
+     <widget class="QPushButton" name="Info">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>20</y>
+        <width>91</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">  #Info{  border-width: 9px;
+    border-radius: 10px;
+    border-color:rgba(0,0,0,0.5); ;
+    font: bold 14px;
+    padding: 1px}
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="../Project_calculating_Gear/qml.qrc">
+        <normaloff>:/dowload/Anh_cua_app+do_an/Gear_info.png</normaloff>:/dowload/Anh_cua_app+do_an/Gear_info.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>70</width>
+        <height>70</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>99</y>
+        <width>151</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>MS Shell Dlg 2</family>
+        <weight>50</weight>
+        <italic>true</italic>
+        <bold>false</bold>
+        <underline>false</underline>
+        <kerning>false</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string>Các Thông Số và tỉ số truyền</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_45">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>370</y>
+        <width>151</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Công suất trên các trục</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_59">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>590</y>
+        <width>151</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Moment trên các trục :</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_21">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>610</y>
+        <width>151</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_8">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_36">
+         <item>
+          <widget class="QLabel" name="label_70">
+           <property name="text">
+            <string>M(đc)=</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_71">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_31">
+         <item>
+          <widget class="QLabel" name="label_60">
+           <property name="text">
+            <string>M1 =</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_61">
+           <property name="text">
+            <string>137907.6642</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_32">
+         <item>
+          <widget class="QLabel" name="label_62">
+           <property name="text">
+            <string>M2 =</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_63">
+           <property name="text">
+            <string>1310674.4403</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_33">
+         <item>
+          <widget class="QLabel" name="label_64">
+           <property name="text">
+            <string>M3 =</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_65">
+           <property name="text">
+            <string>5098120.64</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="label_52">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>480</y>
+        <width>151</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Số Vòng quay trên các trục</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>120</y>
+        <width>151</width>
+        <height>251</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_6">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_8">
+         <item>
+          <widget class="QLabel" name="label_13">
+           <property name="text">
+            <string>P(làm việc) :</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_14">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_9">
+         <item>
+          <widget class="QLabel" name="label_15">
+           <property name="text">
+            <string>P(tính toán) :</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_16">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_10">
+         <item>
+          <widget class="QLabel" name="label_17">
+           <property name="text">
+            <string>P(cần thiết):</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_18">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_11">
+         <item>
+          <widget class="QLabel" name="label_19">
+           <property name="text">
+            <string>N(làm việc):</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_20">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_12">
+         <item>
+          <widget class="QLabel" name="label_21">
+           <property name="text">
+            <string>N(sb):</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_22">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_13">
+         <item>
+          <widget class="QLabel" name="label_23">
+           <property name="text">
+            <string>U(t) :</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_24">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_14">
+         <item>
+          <widget class="QLabel" name="label_25">
+           <property name="text">
+            <string>U(h) :</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_26">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_15">
+         <item>
+          <widget class="QLabel" name="label_27">
+           <property name="text">
+            <string>U1 :</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit"/>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_24">
+         <item>
+          <widget class="QLabel" name="label_44">
+           <property name="text">
+            <string>U2 :</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="U_2">
+           <property name="text">
+            <string>4.0927</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>496</y>
+        <width>151</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_7">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_34">
+         <item>
+          <widget class="QLabel" name="label_66">
+           <property name="text">
+            <string>N(động cơ) =</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_67">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_28">
+         <item>
+          <widget class="QLabel" name="label_53">
+           <property name="text">
+            <string>N1 =</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_54">
+           <property name="text">
+            <string>930.1587</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_29">
+         <item>
+          <widget class="QLabel" name="label_55">
+           <property name="text">
+            <string>N2 =</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="N2">
+           <property name="text">
+            <string>93.0158</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_30">
+         <item>
+          <widget class="QLabel" name="label_57">
+           <property name="text">
+            <string>N3 =</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="N3">
+           <property name="text">
+            <string>22.7273</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>392</y>
+        <width>151</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_9">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_35">
+         <item>
+          <widget class="QLabel" name="label_68">
+           <property name="text">
+            <string>P(đc)</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_69">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_25">
+         <item>
+          <widget class="QLabel" name="label_46">
+           <property name="text">
+            <string>P1 =</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_47">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_27">
+         <item>
+          <widget class="QLabel" name="label_50">
+           <property name="text">
+            <string>P2 =</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_51">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_26">
+         <item>
+          <widget class="QLabel" name="label_48">
+           <property name="text">
+            <string>P3 =</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_49">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QFrame" name="frame_4">
+      <property name="geometry">
+       <rect>
+        <x>-20</x>
+        <y>-20</y>
+        <width>200</width>
+        <height>711</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>200</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QPushButton" name="Next_info">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>21</width>
+         <height>70</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>30</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">  #Next_info{  border-width: 9px;
+    border-radius: 10px;
+    border-color:rgba(0,0,0,0.5); ;
+    font: bold 14px;
+    padding: 1px}
+#Next_info:hover{
+background-color:	rgba(116, 114, 157, 0.2);
+}
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../Project_calculating_Gear/qml.qrc">
+         <normaloff>:/dowload/Anh_cua_app+do_an/next_page.png</normaloff>:/dowload/Anh_cua_app+do_an/next_page.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="Prev_info">
+       <property name="geometry">
+        <rect>
+         <x>175</x>
+         <y>0</y>
+         <width>21</width>
+         <height>70</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>30</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">  #Prev_info{  border-width: 9px;
+    border-radius: 10px;
+    border-color:rgba(0,0,0,0.5); ;
+    font: bold 14px;
+    padding: 1px}
+#Prev_info:hover{
+background-color:	rgba(116, 114, 157, 0.2);
+}
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../Project_calculating_Gear/qml.qrc">
+         <normaloff>:/dowload/Anh_cua_app+do_an/Prev_page.png</normaloff>:/dowload/Anh_cua_app+do_an/Prev_page.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_6">
+     <widget class="QPushButton" name="pushButton_9">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>30</y>
+        <width>80</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">  #pushButton_9{  border-width: 9px;
+    border-radius: 10px;
+    border-color:rgba(0,0,0,0.5); ;
+    font: bold 14px;
+    padding: 1px}
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="../Project_calculating_Gear/qml.qrc">
+        <normaloff>:/dowload/Anh_cua_app+do_an/style_gear.png</normaloff>:/dowload/Anh_cua_app+do_an/style_gear.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>70</width>
+        <height>70</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_100">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>110</y>
+        <width>171</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Biên dạng răng</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>140</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_51">
+       <item>
+        <widget class="QLabel" name="label_96">
+         <property name="text">
+          <string>Biên dạng răng</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_97">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_5">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>180</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_55">
+       <item>
+        <widget class="QLabel" name="label_98">
+         <property name="text">
+          <string>Góc nghiêng răng</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_99">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1835</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="../Project_calculating_Gear/qml.qrc"/>
+ </resources>
+ <connections/>
+</ui>
