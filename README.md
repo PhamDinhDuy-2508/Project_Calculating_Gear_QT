@@ -1,0 +1,2 @@
+# Project_Calculating_Gear_QT
+Project_Calculating_Gear_QT
